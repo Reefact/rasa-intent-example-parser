@@ -9,7 +9,7 @@ entityName		:	WORD+ ;
 
 WORD			:	Letter+ ;
 
-fragment Letter :	[a-zA-Z$_]
+fragment Letter :	[a-zA-Z$_0-9\-]
 				|	~[\u0000-\u007F\uD800-\uDBFF]
 				|	[\uD800-\uDBFF] [\uDC00-\uDFFF]
 				|	[ \t\r\n]+

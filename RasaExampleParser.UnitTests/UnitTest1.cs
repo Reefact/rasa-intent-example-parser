@@ -19,10 +19,20 @@ namespace Reefact.RasaIntentExampleParser.UnitTests {
             ImmutableArray<object> result = parser.Parse(input);
             Check.That(result.Length).IsEqualTo(5);
             Check.That(result[0]).IsEqualTo("What is the weather ");
-            Check.That(result[1]).IsEqualTo(new EntityExample() { EntityName = "date", EntityValue = "today" });
+            Check.That(result[1]).IsEqualTo(new EntityExample { EntityName = "date", EntityValue = "today" });
             Check.That(result[2]).Equals(" in ");
-            Check.That(result[3]).IsEqualTo(new EntityExample() { EntityName = "place", EntityValue = "Paris" });
+            Check.That(result[3]).IsEqualTo(new EntityExample { EntityName = "place", EntityValue = "Paris" });
             Check.That(result[4]).IsEqualTo(" please ?");
+        }
+
+        [Fact]
+        public void Test2() {
+            const string           input  = "Give me information on trade [776576](trade-id)";
+            var                    parser = IntentExampleParser.Create(new CustomListenerFactory());
+            ImmutableArray<object> result = parser.Parse(input);
+            Check.That(result.Length).IsEqualTo(2);
+            Check.That(result[0]).IsEqualTo("Give me information on trade ");
+            Check.That(result[1]).IsEqualTo(new EntityExample { EntityName = "trade-id", EntityValue = "776576" });
         }
 
     }

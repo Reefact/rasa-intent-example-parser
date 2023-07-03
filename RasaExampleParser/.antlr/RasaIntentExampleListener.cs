@@ -29,7 +29,7 @@ using IToken = Antlr4.Runtime.IToken;
 /// </summary>
 [System.CodeDom.Compiler.GeneratedCode("ANTLR", "4.13.0")]
 [System.CLSCompliant(false)]
-internal interface IRasaIntentExampleListener : IParseTreeListener {
+public interface IRasaIntentExampleListener : IParseTreeListener {
 	/// <summary>
 	/// Enter a parse tree produced by <see cref="RasaIntentExampleParser.example"/>.
 	/// </summary>
