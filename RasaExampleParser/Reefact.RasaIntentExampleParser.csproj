@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include=".antlr\RasaIntentExampleBaseListener.cs" />
+    <Compile Include=".antlr\RasaIntentExampleLexer.cs" />
+    <Compile Include=".antlr\RasaIntentExampleListener.cs" />
+    <Compile Include=".antlr\RasaIntentExampleParser.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Antlr4.Runtime.Standard" Version="4.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".antlr\RasaIntentExample.g4" />
+    <None Include=".antlr\RasaIntentExample.interp" />
+    <None Include=".antlr\RasaIntentExample.tokens" />
+    <None Include=".antlr\RasaIntentExampleLexer.interp" />
+    <None Include=".antlr\RasaIntentExampleLexer.tokens" />
+  </ItemGroup>
+
+</Project>

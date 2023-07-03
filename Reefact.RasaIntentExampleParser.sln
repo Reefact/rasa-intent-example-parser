@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reefact.RasaIntentExampleParser", "RasaExampleParser\Reefact.RasaIntentExampleParser.csproj", "{AACEF1D9-EB4B-4611-ABB3-079BFC8F31D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reefact.RasaIntentExampleParser.UnitTests", "RasaExampleParser.UnitTests\Reefact.RasaIntentExampleParser.UnitTests.csproj", "{11484E80-143C-4A8C-80B8-E4F015A096C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AACEF1D9-EB4B-4611-ABB3-079BFC8F31D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACEF1D9-EB4B-4611-ABB3-079BFC8F31D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACEF1D9-EB4B-4611-ABB3-079BFC8F31D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACEF1D9-EB4B-4611-ABB3-079BFC8F31D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11484E80-143C-4A8C-80B8-E4F015A096C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11484E80-143C-4A8C-80B8-E4F015A096C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11484E80-143C-4A8C-80B8-E4F015A096C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11484E80-143C-4A8C-80B8-E4F015A096C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {510A163C-293A-4255-B591-389BDC3AD087}
+	EndGlobalSection
+EndGlobal
