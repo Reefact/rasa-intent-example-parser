@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// Generated from RasaIntentExample.g4 by ANTLR 4.13.0
+// Generated from SkillExample.g4 by ANTLR 4.13.0
 
 // Unreachable code detected
 #pragma warning disable 0162
@@ -27,74 +27,50 @@ using IToken = Antlr4.Runtime.IToken;
 using ParserRuleContext = Antlr4.Runtime.ParserRuleContext;
 
 /// <summary>
-/// This class provides an empty implementation of <see cref="IRasaIntentExampleListener"/>,
+/// This class provides an empty implementation of <see cref="ISkillExampleListener"/>,
 /// which can be extended to create a listener which only needs to handle a subset
 /// of the available methods.
 /// </summary>
 [System.CodeDom.Compiler.GeneratedCode("ANTLR", "4.13.0")]
 [System.Diagnostics.DebuggerNonUserCode]
 [System.CLSCompliant(false)]
-public partial class RasaIntentExampleBaseListener : IRasaIntentExampleListener {
+public partial class SkillExampleBaseListener : ISkillExampleListener {
 	/// <summary>
-	/// Enter a parse tree produced by <see cref="RasaIntentExampleParser.example"/>.
+	/// Enter a parse tree produced by <see cref="SkillExampleParser.example"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void EnterExample([NotNull] RasaIntentExampleParser.ExampleContext context) { }
+	public virtual void EnterExample([NotNull] SkillExampleParser.ExampleContext context) { }
 	/// <summary>
-	/// Exit a parse tree produced by <see cref="RasaIntentExampleParser.example"/>.
+	/// Exit a parse tree produced by <see cref="SkillExampleParser.example"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void ExitExample([NotNull] RasaIntentExampleParser.ExampleContext context) { }
+	public virtual void ExitExample([NotNull] SkillExampleParser.ExampleContext context) { }
 	/// <summary>
-	/// Enter a parse tree produced by <see cref="RasaIntentExampleParser.text"/>.
+	/// Enter a parse tree produced by <see cref="SkillExampleParser.text"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void EnterText([NotNull] RasaIntentExampleParser.TextContext context) { }
+	public virtual void EnterText([NotNull] SkillExampleParser.TextContext context) { }
 	/// <summary>
-	/// Exit a parse tree produced by <see cref="RasaIntentExampleParser.text"/>.
+	/// Exit a parse tree produced by <see cref="SkillExampleParser.text"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void ExitText([NotNull] RasaIntentExampleParser.TextContext context) { }
+	public virtual void ExitText([NotNull] SkillExampleParser.TextContext context) { }
 	/// <summary>
-	/// Enter a parse tree produced by <see cref="RasaIntentExampleParser.entityExample"/>.
+	/// Enter a parse tree produced by <see cref="SkillExampleParser.argumentName"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void EnterEntityExample([NotNull] RasaIntentExampleParser.EntityExampleContext context) { }
+	public virtual void EnterArgumentName([NotNull] SkillExampleParser.ArgumentNameContext context) { }
 	/// <summary>
-	/// Exit a parse tree produced by <see cref="RasaIntentExampleParser.entityExample"/>.
+	/// Exit a parse tree produced by <see cref="SkillExampleParser.argumentName"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
-	public virtual void ExitEntityExample([NotNull] RasaIntentExampleParser.EntityExampleContext context) { }
-	/// <summary>
-	/// Enter a parse tree produced by <see cref="RasaIntentExampleParser.entityValue"/>.
-	/// <para>The default implementation does nothing.</para>
-	/// </summary>
-	/// <param name="context">The parse tree.</param>
-	public virtual void EnterEntityValue([NotNull] RasaIntentExampleParser.EntityValueContext context) { }
-	/// <summary>
-	/// Exit a parse tree produced by <see cref="RasaIntentExampleParser.entityValue"/>.
-	/// <para>The default implementation does nothing.</para>
-	/// </summary>
-	/// <param name="context">The parse tree.</param>
-	public virtual void ExitEntityValue([NotNull] RasaIntentExampleParser.EntityValueContext context) { }
-	/// <summary>
-	/// Enter a parse tree produced by <see cref="RasaIntentExampleParser.entityName"/>.
-	/// <para>The default implementation does nothing.</para>
-	/// </summary>
-	/// <param name="context">The parse tree.</param>
-	public virtual void EnterEntityName([NotNull] RasaIntentExampleParser.EntityNameContext context) { }
-	/// <summary>
-	/// Exit a parse tree produced by <see cref="RasaIntentExampleParser.entityName"/>.
-	/// <para>The default implementation does nothing.</para>
-	/// </summary>
-	/// <param name="context">The parse tree.</param>
-	public virtual void ExitEntityName([NotNull] RasaIntentExampleParser.EntityNameContext context) { }
+	public virtual void ExitArgumentName([NotNull] SkillExampleParser.ArgumentNameContext context) { }
 
 	/// <inheritdoc/>
 	/// <remarks>The default implementation does nothing.</remarks>

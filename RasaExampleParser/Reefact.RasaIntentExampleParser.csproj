@@ -5,10 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include=".antlr\RasaIntentExampleBaseListener.cs" />
-    <Compile Include=".antlr\RasaIntentExampleLexer.cs" />
-    <Compile Include=".antlr\RasaIntentExampleListener.cs" />
-    <Compile Include=".antlr\RasaIntentExampleParser.cs" />
+    <Compile Include=".antlr\SkillExampleBaseListener.cs" />
+    <Compile Include=".antlr\SkillExampleLexer.cs" />
+    <Compile Include=".antlr\SkillExampleListener.cs" />
+    <Compile Include=".antlr\SkillExampleParser.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,11 +16,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include=".antlr\RasaIntentExample.g4" />
-    <None Include=".antlr\RasaIntentExample.interp" />
-    <None Include=".antlr\RasaIntentExample.tokens" />
-    <None Include=".antlr\RasaIntentExampleLexer.interp" />
-    <None Include=".antlr\RasaIntentExampleLexer.tokens" />
+    <None Include=".antlr\SkillExample.g4" />
+    <None Include=".antlr\SkillExample.interp" />
+    <None Include=".antlr\SkillExample.tokens" />
+    <None Include=".antlr\SkillExampleLexer.interp" />
+    <None Include=".antlr\SkillExampleLexer.tokens" />
   </ItemGroup>
 
 </Project>
