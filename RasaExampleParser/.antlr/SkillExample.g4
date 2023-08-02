@@ -7,9 +7,6 @@ argumentName	:	WORD+ ;
 
 WORD			:	Letter+ ;
 
-fragment Letter :	[a-zA-Z$_0-9\-]
-				|	~[\u0000-\u007F\uD800-\uDBFF]
-				|	[\uD800-\uDBFF] [\uDC00-\uDFFF]
-				|	[ \t\r\n]+
-				|	[,;.:%&#"?]
-				;
+fragment Letter :	[\u0000-\u007A]
+				|	[\u007C]
+				|	[\u007E-\u00FF] ;
